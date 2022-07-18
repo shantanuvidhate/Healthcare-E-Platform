@@ -1,0 +1,98 @@
+@import url(Appointment.css);
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Bodoni:ital@1&family=Roboto&family=Roboto+Serif&family=Roboto+Slab:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Roboto+Serif&family=Roboto+Slab:wght@500&family=Tapestry&display=swap');
+
+body ,html{
+height: 100%;
+margin: 0;
+}
+
+.bg {
+/* The image used */
+background-image: url("../img/hos.jpg");
+
+
+height: 100%; 
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+position: relative;
+/* opacity: 0.90; */
+
+
+/* about us  */
+}
+.bg .aboutus{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    /* font-size: xx-large; */
+    font-family: 'Tapestry', cursive;
+}
+.bg .aboutus .aboutbox{
+
+    font-family: 'Tapestry', cursive;
+    width : 800px;
+    margin: auto;
+    
+    justify-content: center;
+    text-align: left;
+    padding-left: 5px;
+    /* font-family: 'Libre Bodoni', serif; */
+    font-family: 'Roboto Serif', serif;
+    padding-top: 10px;
+    /* line-height: 2.0; */
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+}
+
+.bg .aboutus .aboutbox img{
+    width: 100px;
+    display: flex;
+    margin: 30px;
+
+}
+
+/* Our mission */
+.bg .mission{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    /* font-size: xx-large; */
+    font-family: 'Tapestry', cursive;
+ 
+}
+.bg .mission .missionbox{
+
+   
+    width : 800px;
+    margin: auto;
+    
+    justify-content: center;
+    text-align: left;
+    padding-left: 5px;
+    /* font-family: 'Libre Bodoni', serif; */
+    font-family: 'Roboto Serif', serif;
+    padding-top: 20px;
+    /* line-height: 2.0; */
+    
+    border-radius: 15px;
+    display: flex;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 25px;
+    right: 16px;
+    color: rgb(255, 255, 255);
+  }
+

@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&family=Roboto+Slab:wght@500&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+form{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Roboto Serif', sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0px 0px;                         /*   edited 120 -- > 0   1st */
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.sidebar a:hover{
+  padding-left: 25px;
+}
+ 
+.sidebar a.active {
+  background-color: black;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+body .content {
+  margin-left: 200px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding: 1px 16px;
+  height: 1vh;
+  font-family: 'Roboto Serif', sans-serif;
+}
+.content h2{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: center;
+  justify-content: center;
+  color: rgb(68 68 90);
+}
+
+.logo img {
+  /* position: fixed; */
+  display: block;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 140px;
+
+}
+.top{
+  margin-top: 9px;
+}
+.btnc{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+.footer{
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Media Queries */
+/* Breakpoint for 700px and 400px */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+  .logo img {
+    display: block;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 140px;
+    margin: auto;
+    
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .logo img {
+    display: block;
+    top: 0px;
+    right: 0px;
+    
+    margin: auto;
+    height: 140px;
+  
+  }
+  
+}
+

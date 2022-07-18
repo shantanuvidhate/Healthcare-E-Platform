@@ -1,0 +1,35 @@
+@import url(Appointment.css);
+
+
+.box1{
+    width: 400px;
+    height: 400px;
+    margin-top: 125px;
+    margin-left: 10px;
+}
+
+
+.box2{
+    width: 500px;
+    height: 550px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -12px 12px 20px 0px;
+    
+}
+.f{
+    display: flex;
+    margin-left: 200px;
+ 
+    
+}
+.ContactUs{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px 0px;
+    font-size: larger;
+    margin: 0px 0px;
+}
